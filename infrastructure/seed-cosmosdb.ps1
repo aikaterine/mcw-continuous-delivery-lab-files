@@ -1,5 +1,5 @@
 $studentprefix = "803539"
-$githubAccount = "Your github account name here"
+$githubAccount = "aikaterine"
 $resourcegroupName = "fabmedical-rg-" + $studentprefix
 $cosmosDBName = "fabmedical-cdb-" + $studentprefix
 
@@ -14,5 +14,5 @@ $mongodbConnectionString = `
 # Seed CosmosDB database
 docker run -ti `
     -e MONGODB_CONNECTION="$mongodbConnectionString" `
-    ghcr.io/$githubAccount/fabrikam-init:main
+    ghcr.io/$githubAccount/fabrikam-init:master
 
