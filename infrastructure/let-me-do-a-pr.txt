@@ -1,2 +1,2 @@
 The instructions on this lab need some reworking, and it would be nice to be able to actually click links in the edge browser without it downloading the page instead
-of opening the page. 
+of opening the page. Does this run docker building container?
