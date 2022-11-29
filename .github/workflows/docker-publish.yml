@@ -1,4 +1,4 @@
-sterame: Docker
+name: Docker
 
 # This workflow uses actions that are not certified by GitHub.
 # They are provided by a third-party and are governed by
@@ -98,7 +98,7 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.CR_PAT }}
 
-      # Extract API image metadata (tags, labels) for Docker
+      # Extract API image metadata (tags, labels) forname
       # https://github.com/docker/metadata-action
       - name: Extract Docker metadata for ${{ env.API_IMAGE_NAME }}
         id: meta
