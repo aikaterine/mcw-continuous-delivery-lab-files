@@ -55,6 +55,6 @@ stages:
               scriptLocation: 'scriptPath'
               scriptPath: './infrastructure/deploy-webapp.ps1803539
               workingDirectory: ./infrastructure
-              arguments: 803539         # <-- This should be your custom
-            env:                       # lowercase three character 
-              CR_PAT: $(CR_PAT)  # prefix from an earlier exercise803539
+              arguments: 803539
+            env:
+              CR_PAT: $(CR_PAT) 
